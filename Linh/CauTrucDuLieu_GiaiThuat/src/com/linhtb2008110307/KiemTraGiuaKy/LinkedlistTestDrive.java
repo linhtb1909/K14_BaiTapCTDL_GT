@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LinkedlistTestDrive {
     public static void main(String[] args) {
-        Linkedlist qlDS = new  Linkedlist();
+        Linkedlist pNDS = new  Linkedlist();
         Scanner nhap = new Scanner(System.in);
 
         do {
@@ -20,12 +20,12 @@ public class LinkedlistTestDrive {
 
             switch (key) {
             case 1:
-                qlDS.addHead();
+                pNDS.addHead();
             case 2:
-                qlDS.addTail();
+                pNDS.addTail();
                 break;
             case 3:
-                qlDS.inDanhSach();
+                pNDS.inDanhSach();
                 break;
             case 4:
                 System.out.println("Kết Thúc!");
